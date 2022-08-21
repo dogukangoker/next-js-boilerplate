@@ -1,0 +1,60 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  border-bottom: 1px solid #dadada;
+  height: 100px;
+  padding-inline: 4rem;
+  .logo {
+    width: 200px;
+  }
+  .menuItems {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 12rem;
+    width: 40%;
+
+    .dropdown {
+      display: none;
+    }
+    ul {
+      display: flex;
+      list-style: none;
+      li {
+        list-style: none;
+        position: relative;
+        margin: 0 20px;
+        &:hover {
+          cursor: pointer;
+          .dropdown {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            position: absolute;
+            background-color: #dadada;
+            padding: 10px;
+            z-index: 999;
+            width: 200px;
+
+            div {
+              &:hover {
+                cursor: pointer;
+                background-color: #f3bc45;
+                color: #ff0000;
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+              }
+            }
+          }
+        }
+      }
+    }
+    @media screen and (max-width: 768px) {
+      display: none;
+    }
+  }
+}

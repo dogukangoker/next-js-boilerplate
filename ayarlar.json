@@ -1,0 +1,43 @@
+{
+  "headerBackgroundColor": "#f3f3f3",
+  "headerElements": [
+    {
+      "id": 1,
+      "name": "Anasayfa",
+      "dropdown": []
+    },
+    {
+      "id": 2,
+      "name": "Ürünlerimiz",
+      "dropdown": [
+        {
+          "id": 1,
+          "name": "Kırmızı"
+        },
+        {
+          "id": 2,
+          "name": "Sarı"
+        },
+        {
+          "id": 3,
+          "name": "Mavi"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "İletişim",
+      "dropdown": []
+    }
+  ],
+  "carouselItems": [
+    {
+      "id": 1,
+      "path": "/images/carousel1.jpg"
+    },
+    {
+      "id": 2,
+      "path": "/images/carousel2.jpg"
+    }
+  ]
+}
